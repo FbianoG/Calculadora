@@ -1,0 +1,56 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.teclado {
+    width: 330px;
+    padding: 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+    border-radius: 4px;
+    background: #fbfbfb;
+    margin: 20px auto;
+}
+
+.tela {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-bottom: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.first-number {
+    font-size: 24px;
+    height: 32px;
+}
+.current-number {
+    font-size: 16px;
+    color: #606060;
+}
+
+button {
+    width: 75px;
+    height: 55px;
+    background: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ebebeb;
+    transition: 200ms;
+}
